@@ -58,9 +58,9 @@ function App() {
               <div className="flex flex-col items-center md:items-start gap-3">
                 <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300">Connect with me</h3>
                 <SocialLinks 
-                  instagramUrl="#" 
-                  githubUrl="#" 
-                  linkedinUrl="#" 
+                  instagramUrl="https://www.instagram.com/officialksolo/" 
+                  githubUrl="https://github.com/Sulaimon-ade" 
+                  linkedinUrl="https://www.linkedin.com/in/adeniyi-okunoye-5717882ba/" 
                 />
               </div>
 
