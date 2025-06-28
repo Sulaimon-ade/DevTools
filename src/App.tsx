@@ -3,7 +3,7 @@ import { Header } from './components/Header';
 import { CategoryNav } from './components/CategoryNav';
 import { ResourceGrid } from './components/ResourceGrid';
 import { SocialLinks } from './components/SocialLinks';
-import { ThemeProvider } from './contexts/ThemeContext';
+import { ThemeProvider } from './components/contexts/ThemeContext';
 import { categories, getResourcesByCategory, getCategoriesWithCounts } from './data/resources';
 
 /**
