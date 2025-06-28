@@ -11,9 +11,9 @@ interface SocialLinksProps {
  * Social media links component for the footer
  */
 export const SocialLinks: React.FC<SocialLinksProps> = ({
-  instagramUrl = '#',
-  githubUrl = '#',
-  linkedinUrl = '#'
+  instagramUrl = 'https://www.instagram.com/officialksolo/',
+  githubUrl = 'https://github.com/Sulaimon-ade',
+  linkedinUrl = 'https://www.linkedin.com/in/adeniyi-okunoye-5717882ba/'
 }) => {
   const socialLinks = [
     {
