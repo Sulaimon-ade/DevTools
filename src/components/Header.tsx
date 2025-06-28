@@ -21,7 +21,7 @@ export const Header: React.FC = () => {
       {/* Subtitle */}
       <div className="flex items-center justify-center gap-2 text-gray-600 mb-2">
         <Users size={16} />
-        <span className="text-lg">Suleiman Okunoye Development Resources</span>
+        <span className="text-lg">Suleiman A. Okunoye Development Resources</span>
       </div>
 
       {/* Description */}
