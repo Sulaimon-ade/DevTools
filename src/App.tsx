@@ -5,7 +5,6 @@ import { ResourceGrid } from './components/ResourceGrid';
 import { SocialLinks } from './components/SocialLinks';
 import { ThemeProvider } from './components/contexts/ThemeContext';
 import { categories, getResourcesByCategory, getCategoriesWithCounts } from './data/resources';
-
 /**
  * Main App Component
  * Manages the overall state and layout of the resource hub
