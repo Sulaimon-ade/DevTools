@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
   return (
     <header className="text-center mb-12">
       {/* Theme Toggle - positioned in top right */}
-      <div className="flex justify-end mb-1">
+      <div className="flex justify-start mb-1">
         <ThemeToggle />
       </div>
 
