@@ -20,29 +20,29 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({ resource }) => {
     <div 
       onClick={handleClick}
       className="
-        group bg-white rounded-xl p-6 shadow-sm border border-gray-100 
-        cursor-pointer transition-all duration-300 hover:shadow-lg hover:shadow-blue-100/50
-        hover:border-blue-200 hover:-translate-y-1 active:translate-y-0
+        group bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700
+        cursor-pointer transition-all duration-300 hover:shadow-lg hover:shadow-blue-100/50 dark:hover:shadow-blue-900/20
+        hover:border-blue-200 dark:hover:border-blue-600 hover:-translate-y-1 active:translate-y-0
       "
     >
       {/* Card Header */}
       <div className="flex items-start justify-between mb-3">
-        <h3 className="font-semibold text-gray-900 text-lg leading-tight group-hover:text-blue-600 transition-colors">
+        <h3 className="font-semibold text-gray-900 dark:text-white text-lg leading-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
           {resource.name}
         </h3>
         <ExternalLink 
           size={16} 
-          className="text-gray-400 group-hover:text-blue-500 transition-colors flex-shrink-0 ml-2" 
+          className="text-gray-400 dark:text-gray-500 group-hover:text-blue-500 dark:group-hover:text-blue-400 transition-colors flex-shrink-0 ml-2" 
         />
       </div>
 
       {/* Card Description */}
-      <p className="text-gray-600 text-sm leading-relaxed mb-4">
+      <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">
         {resource.description}
       </p>
 
       {/* Card Footer - URL Preview */}
-      <div className="flex items-center text-xs text-gray-400 group-hover:text-blue-500 transition-colors">
+      <div className="flex items-center text-xs text-gray-400 dark:text-gray-500 group-hover:text-blue-500 dark:group-hover:text-blue-400 transition-colors">
         <span className="truncate">
           {new URL(resource.url).hostname}
         </span>
